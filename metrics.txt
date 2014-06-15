@@ -1,0 +1,33 @@
+E:\PycharmProjects\TwitterSearchPractice\SentimentAnalysis>python SentiAnalyzeV3.py
+Number of Positive tweets :  12500
+Number of Negative tweets :  12500
+Cutoffs... 75-25
+Training  on 18750 instances, test on 6250 instances
+After reducing features, no of word features are :  10000
+ Applying features for training set...
+ Applying features for test set ...
+Training features count = 18750
+Test features count = 6250
+Begin training.....
+Saving classifier...
+accuracy: 0.8696
+Begin collecting stats...
+Begin metrics check...
+pos precision: 0.891525423729
+pos recall: 0.8416
+pos F-measure: 0.865843621399
+neg precision: 0.85
+neg recall: 0.8976
+neg F-measure: 0.873151750973
+End collecting stats...
+Most Informative Features
+          contains(3/10) = True           negati : positi =     37.0 : 1.0
+          contains(4/10) = True           negati : positi =     35.7 : 1.0
+     contains(horrible.) = True           negati : positi =     33.3 : 1.0
+       contains(widmark) = True           positi : negati =     30.3 : 1.0
+       contains(/>avoid) = True           negati : positi =     29.7 : 1.0
+         contains(mst3k) = True           negati : positi =     27.0 : 1.0
+   contains(excellently) = True           positi : negati =     23.0 : 1.0
+   contains(incredible.) = True           positi : negati =     23.0 : 1.0
+     contains(pathetic.) = True           negati : positi =     22.6 : 1.0
+    contains(miserably.) = True           negati : positi =     22.3 : 1.0
